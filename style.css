@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Sriracha;
+    src: url("Sriracha-Regular.ttf");
+}
+body {
+    font-family: Sriracha;
+    
+    min-height: 100vh;
+    background-color: aliceblue;
+    margin: 0px;
+        
+} 
+header {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 30px;
+       
+}
+header >p {
+    margin-top:  0px;
+    font-size: 1.2em;
+}
+h1 {
+    margin-bottom: 0px;
+    font-variant: small-caps;
+    font-size: 8vw;
+
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;  
+    
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    line-height: 3em;
+    padding-left: 10px;
+    font-size: 2vw;
+
+}
+section#q1 {
+    background-image: url("imagens/img1.jpg");
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.507);
+    color: aliceblue;
+    height: 50vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    
+       
+}
+section#q0 {
+    background-color:aliceblue;
+    
+    
+    
+}
+section#q1 >p {
+    
+    background-color: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    padding: 2px;
+    
+
+
+}
+section > p {
+    margin: 30px;
+    font-size: 4vw;
+} 
+footer {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+section#q3 {
+    background-image: url("imagens/img2.jpg");
+    color: aliceblue;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.507);
+    height: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+section#q3 >p {
+    background-color: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    padding: 2px;
+}
